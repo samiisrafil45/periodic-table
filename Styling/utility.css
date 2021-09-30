@@ -1,0 +1,152 @@
+
+*{
+    width: 100%;
+   font-family: sans-serif;
+  
+}
+
+
+.x-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.2%;
+    padding: 0;
+}
+.x-grid1{
+    display: grid;
+    grid-template-columns: 2.05fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.2%;
+    padding: 0;
+}
+
+.x-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 10.32fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 0.2%;
+    padding: 0;
+}
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.grid-container1 > div {
+  background : rgb(250, 207, 246);
+  text-align: center;
+  font-size: 20px;
+  /* height: 2.1em; */
+  margin-bottom:1rem;
+
+}
+
+.t1{
+  text-align: center;
+  font-size: 17px;
+
+}
+
+
+.w1{
+    text-align: center;
+
+
+}
+.c1{
+background-color: rgb(250, 207, 246);
+margin-bottom: 4.5px;
+}
+
+.x-grid-top{
+    display: grid;
+   grid-template-columns: 1fr 2fr 1fr 1fr;
+   grid-gap: 3em;
+   justify-items: center;
+   height: 9em;
+   list-style: none;
+}
+
+.metals{
+    margin-left: 24%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.alkali-metals {
+    background-color: rgb(232,131,190);
+    text-align: center;
+
+}
+
+.alkali-earth-metals {
+    background-color: rgb(118,178,225);
+    text-align: center;
+
+}
+
+.transition-metals {
+    background-color: rgb(244,147,155);
+    text-align: center;
+
+}
+
+.lanthanides {
+    background-color: rgb(245,201,118);
+    text-align: center;
+
+}
+
+.actinides{
+    background-color: rgb(179,174,158);
+    text-align: center;
+
+}
+
+.post-transition-metals {
+    height: 80%;
+    background-color: rgb(187,169,220);
+
+}
+
+
+.metalloids {
+    height: 80%;
+    background-color: rgb(240,182,136);
+
+}
+
+
+
+.non-metals {
+    width: 76%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.other-non-metals {
+    background-color: rgb(131,194,163);
+    text-align: center;
+
+}
+
+.halogens {
+    background-color: rgb(118,178,225);
+    text-align: center;
+
+}
+
+.noble-gases {
+    background-color: rgb(244,147,155);
+    text-align: center;
+
+}
+

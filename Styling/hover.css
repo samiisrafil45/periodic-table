@@ -1,0 +1,16 @@
+.psuedo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* .image img{
+    max-width: max-content;
+    background-color: chartreuse;
+} */
+.details{
+    background-color: blue;
+}
+.image{
+    background-color: chartreuse;
+}
